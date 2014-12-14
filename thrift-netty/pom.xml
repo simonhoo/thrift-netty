@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cottsoft.thrift.netty</groupId>
+  <artifactId>thrift-netty</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Thrift on Netty, 利用Netty重构Thrift的Transport和数据传输协议。 </name>
+  <description>Thrift on Netty, 利用Netty重构Thrift的Transport和数据传输协议。 </description>
+  <modules>
+  	<module>thrift-netty-core</module>
+  	<module>thrift-netty-example</module>
+  	<module>thrift-netty-client</module>
+  	<module>thrift-netty-server</module>
+  </modules>
+</project>
